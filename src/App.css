@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+}
+
+.content_wrapper {
+  
+}
+.content_wrapper a{
+  position: relative;
+}
+
+span {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+
+.details {
+  position: absolute;
+  bottom: 5px;
+  right: 2px;
+}
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action span{
+  padding: 0 50px;
+}
