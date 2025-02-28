@@ -25,7 +25,7 @@ function App() {
       <div className='content_wrapper'>
         {filteredData.map((item, ind) => {
           if (ind != showId) {
-            return <a key={ind} onMouseEnter={handleHover.bind(null, ind)} href={item.vidLink} target="_blank">
+            return <a key={ind} onTouchEnd={handleHover.bind(null, ind)} href={item.vidLink} target="_blank">
               <img height='200px' width='200px' src={item.thumbImgLink}></img>
               <div className='details'>
                 <span>{item.views}</span>
